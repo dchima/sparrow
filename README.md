@@ -1,2 +1,3 @@
-# sparrow
-one day build for a personal site
+
+### Sparrow App
+A react app for my personal website code named `Sparrow`
