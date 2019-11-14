@@ -1,0 +1,34 @@
+### PROJECT LOG
+
+1. The desings and wireframes have been created to a satisfactory level. Each wireframe will ocnstitute its own project cylce. The cycles are:
+ 
+ - Side bar
+ - Title page
+ - Navigation buttons (single components)
+ - About page
+ - projects page
+ - Contacts page
+
+notes:
+1. The projects page component will have 4 sections, the image, title, description, project count, and stack tags.
+2. all projects panel will be its own page.
+3. 
+
+Fri, 18:
+Currently setting up eslint into the environment.always remember to check lints that bother you in the code process
+and don't be afraid to turn them off.
+
+Sun 20:
+The navigation scroll functions can be written in a seperate file in thw config folder, then called in the navigation 
+compenemt class later on.
+whatever is set by default in globalSytle using styled-components for the link 'a', does not render automatically for some reason
+I will have to look more into this on my own time.
+
+Wed 23:
+Time to write the media component!
+The div should be small and contain all media links. This means i need to write
+- media links div decor
+-
+
+Thu 24:
+I was able to migrate all the svgs i need for the side bar.
