@@ -42,7 +42,7 @@ const p = {
   padding: '10px',
 };
 const Start = () => (
-  <StartContainer>
+  <StartContainer id='start'>
     <PreTitle>
       <p style={p}>Hey there, my name is</p>
     </PreTitle>
