@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/sparrow/static/js/main.1a42c87b.chunk.js",
-    "main.js.map": "/sparrow/static/js/main.1a42c87b.chunk.js.map",
+    "main.js": "/sparrow/static/js/main.a83622fe.chunk.js",
+    "main.js.map": "/sparrow/static/js/main.a83622fe.chunk.js.map",
     "runtime-main.js": "/sparrow/static/js/runtime-main.220127be.js",
     "runtime-main.js.map": "/sparrow/static/js/runtime-main.220127be.js.map",
     "static/js/2.ea552f7e.chunk.js": "/sparrow/static/js/2.ea552f7e.chunk.js",
     "static/js/2.ea552f7e.chunk.js.map": "/sparrow/static/js/2.ea552f7e.chunk.js.map",
     "index.html": "/sparrow/index.html",
-    "precache-manifest.2db5e14e6bbdf0cec6ae8b7fa63d820a.js": "/sparrow/precache-manifest.2db5e14e6bbdf0cec6ae8b7fa63d820a.js",
+    "precache-manifest.49eb7d70374b00611e13dabdb9ab3568.js": "/sparrow/precache-manifest.49eb7d70374b00611e13dabdb9ab3568.js",
     "service-worker.js": "/sparrow/service-worker.js"
   },
   "entrypoints": [
     "static/js/runtime-main.220127be.js",
     "static/js/2.ea552f7e.chunk.js",
-    "static/js/main.1a42c87b.chunk.js"
+    "static/js/main.a83622fe.chunk.js"
   ]
 }
