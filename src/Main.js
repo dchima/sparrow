@@ -8,7 +8,7 @@ class Main extends Component {
     return (
       <Switch>
         <Route exact path='/' component={App} />
-        <Route exact path='/404' component={ErrorPage} />
+        <Route exact path={`${process.env.PUBLIC_URL}/404`} component={ErrorPage} />
         <Redirect to="/404" />
       </Switch>
     );
