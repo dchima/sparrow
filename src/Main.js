@@ -7,7 +7,7 @@ class Main extends Component {
   render() {
     return (
       <Switch>
-        <Route path='//' component={App} />
+        <Route path='/' exact component={App} />
         <Route component={ErrorPage} />
       </Switch>
     );
