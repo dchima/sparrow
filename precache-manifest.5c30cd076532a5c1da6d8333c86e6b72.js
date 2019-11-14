@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "39a949a4048c7f27d7337608791a445b",
+    "revision": "b3f0196dd3e6c9abf4befa47941d27b8",
     "url": "/sparrow/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sparrow/static/js/2.ea552f7e.chunk.js"
   },
   {
-    "revision": "51b87b948a41049400e2",
-    "url": "/sparrow/static/js/main.a83622fe.chunk.js"
+    "revision": "5ad2d404c7d4733bc496",
+    "url": "/sparrow/static/js/main.268f3d43.chunk.js"
   },
   {
     "revision": "ed07f9d56c217f71a177",
