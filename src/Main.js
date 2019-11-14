@@ -1,3 +1,4 @@
+/* eslint-disable prefer-template */
 import React, { Component } from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import App from 'pages/app';
@@ -8,7 +9,7 @@ class Main extends Component {
     return (
       <Switch>
         <Route exact path={`${process.env.PUBLIC_URL}/`} component={App} />
-        <Route exact path={`${process.env.PUBLIC_URL}/hi`} component={ErrorPage} />
+        <Route exact path={process.env.PUBLIC_URL + '/hi'} component={ErrorPage} />
         <Redirect to={`${process.env.PUBLIC_URL}/404`} />
       </Switch>
     );
