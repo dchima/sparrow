@@ -8,7 +8,6 @@ class Main extends Component {
     return (
       <Switch>
         <Route path='/' exact component={App} />
-        <Route component={ErrorPage} />
       </Switch>
     );
   }
