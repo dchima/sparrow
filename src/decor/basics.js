@@ -3,6 +3,8 @@ const basics = {
     black: '#000000',
     white: '#ffffff',
     bloodRed: '#800020',
+    fadedRed: '#AA6969',
+    chalkRed: '#C1B6B6',
     blue: '#0000ff',
     chalk: '#bababa',
     blueBird: '#00B5E2',
@@ -11,6 +13,7 @@ const basics = {
   fontSize: {
     large: '30px',
     xlarge: '40px',
+    xxlarge: '100px',
     small: '15px',
     xsmall: '12px',
     medium: '20px',
