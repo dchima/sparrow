@@ -1,42 +1,111 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Basics, Title, Paragraph } from 'decor';
+import {
+  Basics, Title, Paragraph, Screen,
+} from 'decor';
 import { config } from 'data';
 
 const StartContainer = styled.div`
   position: relative;
   height: 50vh;
-  width: 70%;
   margin: 200px;
-  overflow: hidden;
+  ${Screen.tablet`
+    margin: 200px 50px;
+    width: 90%;
+  `};
+  ${Screen.miniTablet`
+    margin: 200px 30px;
+    width: 90%;
+  `};
 `;
 const PreTitle = styled.div`
   background-color: white;
   position: relative;
   height: 4.5vh;
-  width: 20vh;
+  width: 200px;
   top: 40px;
   justify-content: center;
   align-items: center;
   font-weight: 900;
   font-size: ${Basics.fontSize.small};
   transform: rotate(-20deg);
+  ${Screen.miniTablet`
+    font-size: ${Basics.fontSize.xsmall};
+    width: 160px;
+  `};
+  ${Screen.phone`
+    font-size: ${Basics.fontSize.xsmall};
+  `};
+  ${Screen.smallPhone`
+    font-size: ${Basics.fontSize.xxsmall};
+    width: 140px;
+  `};
+  ${Screen.largeScreen`
+    width: 160px;
+  `};
+`;
+const Name = styled(Title)`
+  Position: relative;
+  margin: 40px 0px;
+  margin-bottom: 0;
+  top: 20px;
+  ${Screen.largeScreen`
+    font-size: 130px;
+  `};
+  ${Screen.tablet`
+    font-size: 100px;
+  `};
+  ${Screen.largePhone`
+    font-size: 55px;
+  `};
+  ${Screen.phone`
+  font-size: 50px;
+  `};
+  ${Screen.smallPhone`
+  font-size: 44px;
+  padding-top: 10px;
+  `};
 `;
 const SubTitle = styled(Title)`
   position: relative;
   margin-top: 0;
   Position: relative;
   color: ${Basics.colors.fadedRed};
-`;
-const Name = styled(Title)`
-  Position: relative;
-  margin-bottom: 0;
-  top: 20px;
+  line-height: 80%;
+  padding-top: 20px;
+  ${Screen.largeScreen`
+  font-size: 130px;
+  `};
+  ${Screen.tablet`
+    font-size: 100px;
+  `};
+  ${Screen.largePhone`
+    font-size: 58px;
+  `};
+  ${Screen.phone`
+  font-size: 56px;
+  `};
+  ${Screen.smallPhone`
+  font-size: 44px;
+  `};
 `;
 const BodyText = styled(Paragraph)`
   width: 37%;
   position: relative;
   bottom: 50px;
+  padding-top: 40px;
+  ${Screen.largeScreen`
+    font-size: 50px;
+    width: 100%;
+  `};
+  ${Screen.tablet`
+    font-size: 30px;
+    width: 80%;
+  `};
+  ${Screen.largePhone`
+    font-size: 16px;
+    width: 80%;
+  `};
 `;
 const p = {
   padding: '10px',

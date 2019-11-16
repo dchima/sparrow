@@ -16,6 +16,7 @@ const basics = {
     xxlarge: '100px',
     small: '15px',
     xsmall: '12px',
+    xxsmall: '10px',
     medium: '20px',
   },
 };
