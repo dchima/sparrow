@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Basics } from 'decor';
+import { Basics, Screen } from 'decor';
 import { SocialFill } from 'components/svg';
 import { links } from 'data';
 
@@ -11,7 +11,9 @@ const SocialContainer = styled.div`
   right: 10px;
   bottom: 50px;
   position: fixed;
-  // background-color: ${Basics.colors.chalk};
+  ${Screen.miniTablet`
+    display: none;
+  `};
 `;
 const Svg = styled.div`
   margin-top: 24px;

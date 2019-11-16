@@ -6,9 +6,9 @@ import { Start, Nav, Socials } from 'components';
 const App = () => (
     <div>
       <GlobalStyle />
-      <Nav />
       <Socials />
       <Start />
+      <Nav />
     </div>
 );
 

@@ -1,20 +1,24 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Basics } from 'decor';
+import { Basics, Screen } from 'decor';
 import { SvgSparrow } from 'components/svg';
 import { links } from 'data';
 
 const NavContainer = styled.div`
   position: fixed;
-  height: 13vh;
+  height: 10vh;
   display: flex;
   flex-direction: row;
   align-items: cener;
   top: 0;
   left: 0;
   margin: 0 auto;
+  background-color: ${Basics.colors.bloodRed};
   width: 100%;
   transition: ${Basics.transition};
+  ${Screen.miniTablet`
+    display: none;
+  `};
 `;
 
 const Svg = styled.header`
@@ -46,15 +50,15 @@ const Transition = styled.div`
 `;
 const ListContainer = styled.div`
   position: absolute;
-  right: 50px;
+  right: 30px;
   transform: rotate(-90deg);
   font-weight: bold;
 `;
 const NavList = styled.div`
   background-color: white;
   height: 23px;
-  margin: 10px;
-  width: 15vh;
+  margin: 5px;
+  width: 85%;
   &:hover,
   &:focus {
     background-color: ${Basics.colors.blueBird};
