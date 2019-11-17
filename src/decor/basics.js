@@ -8,6 +8,9 @@ const basics = {
     blue: '#0000ff',
     chalk: '#bababa',
     blueBird: '#00B5E2',
+    deepRed: '#650019',
+    rose: '#AA405B',
+    pink: '#DBA3B1',
   },
   transition: 'all 0.25s cubic-bezier(0.3, 0.3, 0.3, 0.3)',
   fontSize: {

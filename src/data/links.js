@@ -24,7 +24,6 @@ const links = {
       name: 'Twitter',
       url: 'https://twitter.com/dxnchima',
     },
-
   ],
   navLinks: [
     {
@@ -38,6 +37,20 @@ const links = {
     {
       name: 'CONTACT',
       url: '#contact',
+    },
+  ],
+  eduLinks: [
+    {
+      name: 'Essex',
+      url: 'https://www.essex.ac.uk/',
+    },
+    {
+      name: 'Nottingham',
+      url: 'https://www.nottingham.ac.uk/',
+    },
+    {
+      name: 'Leeds',
+      url: 'https://www.leeds.ac.uk/',
     },
   ],
 };
