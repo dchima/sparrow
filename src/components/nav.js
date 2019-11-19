@@ -13,7 +13,7 @@ const NavContainer = styled.div`
   top: 0;
   left: 0;
   margin: 0 auto;
-  background-color: ${Basics.colors.bloodRed};
+  background-color: ${Basics.colors.black};
   width: 100%;
   transition: ${Basics.transition};
   ${Screen.miniTablet`
@@ -28,7 +28,7 @@ const Svg = styled.header`
   &:hover,
   &:focus {
     svg {
-      fill: ${Basics.colors.blueBird};
+      fill: ${Basics.colors.fadedRed};
     }
   }
   svg {
@@ -61,7 +61,7 @@ const NavList = styled.div`
   width: 85%;
   &:hover,
   &:focus {
-    background-color: ${Basics.colors.blueBird};
+    background-color: ${Basics.colors.fadedRed};
     transform: translateX(-10px);
     transition: ${Basics.transition};
   }

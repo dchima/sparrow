@@ -1,9 +1,13 @@
 import React from 'react';
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
+import { fadeInUpBig, fadeInDownBig } from 'react-animations';
 import {
   Basics, Title, Paragraph, Screen,
 } from 'decor';
-import { config } from 'data';
+import { content } from 'data';
+
+const animateFadeUp = keyframes`${fadeInUpBig}`;
+const animateFadeDown = keyframes`${fadeInDownBig}`;
 
 const StartContainer = styled.div`
   position: relative;
@@ -19,6 +23,7 @@ const StartContainer = styled.div`
   `};
 `;
 const PreTitle = styled.div`
+  animation: 2s ${animateFadeDown};
   background-color: white;
   position: relative;
   height: 4.5vh;
@@ -28,7 +33,7 @@ const PreTitle = styled.div`
   align-items: center;
   font-weight: 900;
   font-size: ${Basics.fontSize.small};
-  transform: rotate(-20deg);
+  // transform: rotate(-20deg);
   ${Screen.miniTablet`
     font-size: ${Basics.fontSize.xsmall};
     width: 160px;
@@ -45,6 +50,7 @@ const PreTitle = styled.div`
   `};
 `;
 const Name = styled(Title)`
+  animation: 3s ${animateFadeUp};
   Position: relative;
   margin: 40px 0px;
   margin-bottom: 0;
@@ -67,6 +73,7 @@ const Name = styled(Title)`
   `};
 `;
 const SubTitle = styled(Title)`
+  animation: 3s ${animateFadeUp};
   position: relative;
   margin-top: 0;
   Position: relative;
@@ -90,8 +97,10 @@ const SubTitle = styled(Title)`
   `};
 `;
 const BodyText = styled(Paragraph)`
+  animation: 3s ${animateFadeUp};
   width: 37%;
   position: relative;
+  
   bottom: 50px;
   padding-top: 40px;
   ${Screen.largeScreen`
@@ -110,19 +119,20 @@ const BodyText = styled(Paragraph)`
 const p = {
   padding: '10px',
 };
+
 const Start = () => (
   <StartContainer id='start'>
     <PreTitle>
       <p style={p}>Hey there, my name is</p>
     </PreTitle>
     <Name>
-      {config.name}
+      {content.name}
     </Name>
     <SubTitle>
-      {config.desc2}
+      {content.desc2}
     </SubTitle>
     <BodyText>
-      {config.desc}
+      {content.desc}
     </BodyText>
   </StartContainer>
 );

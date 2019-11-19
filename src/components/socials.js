@@ -1,11 +1,14 @@
 import React from 'react';
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
+import { fadeInRightBig } from 'react-animations';
 import { Basics, Screen } from 'decor';
 import { SocialFill } from 'components/svg';
 import { links } from 'data';
 
+const animateFadeIn = keyframes`${fadeInRightBig}`;
 
 const SocialContainer = styled.div`
+  animation: 2.5s ${animateFadeIn};
   width: 50px;
   height: 300px;
   right: 10px;
@@ -25,11 +28,10 @@ const Svg = styled.div`
 `;
 const Link = styled.a`
 position: relative;
-color: inherit;
 &:hover,
 &:focus {
   svg {
-    fill: ${Basics.colors.blueBird};
+    fill: ${Basics.colors.fadedRed};
   }
 }
 svg {
