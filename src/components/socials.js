@@ -28,7 +28,6 @@ const Svg = styled.div`
 `;
 const Link = styled.a`
 position: relative;
-color: inherit;
 &:hover,
 &:focus {
   svg {

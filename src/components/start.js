@@ -4,7 +4,7 @@ import { fadeInUpBig, fadeInDownBig } from 'react-animations';
 import {
   Basics, Title, Paragraph, Screen,
 } from 'decor';
-import { config } from 'data';
+import { content } from 'data';
 
 const animateFadeUp = keyframes`${fadeInUpBig}`;
 const animateFadeDown = keyframes`${fadeInDownBig}`;
@@ -125,13 +125,13 @@ const Start = () => (
       <p style={p}>Hey there, my name is</p>
     </PreTitle>
     <Name>
-      {config.name}
+      {content.name}
     </Name>
     <SubTitle>
-      {config.desc2}
+      {content.desc2}
     </SubTitle>
     <BodyText>
-      {config.desc}
+      {content.desc}
     </BodyText>
   </StartContainer>
 );

@@ -1,7 +1,7 @@
 import links from './links';
-import config from './config';
+import content from './content';
 
 export {
   links,
-  config,
+  content,
 };

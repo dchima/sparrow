@@ -1,10 +1,8 @@
 import styled from 'styled-components';
 
 export const Card = styled.div`
-  height: 257px;
+  height: 265px;
   width: 210px;
-  border: 2px solid white;
-  border-radius: 10px;
 `;
 
 export const cardTools = {

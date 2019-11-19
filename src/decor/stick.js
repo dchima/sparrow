@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
-export const Stick = styled.div`
-
+const Stick = styled.div`
+  height: 10vh;
+  border: 1px solid white;
 `;
 
 export default Stick;
