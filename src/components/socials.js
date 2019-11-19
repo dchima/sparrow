@@ -31,7 +31,7 @@ position: relative;
 &:hover,
 &:focus {
   svg {
-    fill: ${Basics.colors.blueBird};
+    fill: ${Basics.colors.fadedRed};
   }
 }
 svg {

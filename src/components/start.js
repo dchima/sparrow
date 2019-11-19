@@ -100,6 +100,7 @@ const BodyText = styled(Paragraph)`
   animation: 3s ${animateFadeUp};
   width: 37%;
   position: relative;
+  
   bottom: 50px;
   padding-top: 40px;
   ${Screen.largeScreen`

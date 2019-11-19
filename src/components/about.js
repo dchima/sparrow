@@ -1,18 +1,30 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Card, cardTools } from 'decor/card';
-import { Basics, Stick, Paragraph } from 'decor';
+import {
+  Basics,
+  Stick,
+  Paragraph,
+  Screen,
+} from 'decor';
 import profile from 'data/images/profile.jpg';
 import { content, links } from 'data';
 import { EduFill, StackFill } from 'components/svg';
 
 const AboutContainer = styled.div`
   position: relative;
-  border: 1px solid white;
   display: flex;
   flex-wrap: wrap;
-  height: 50vh;
+  height: 60vh;
   margin-top: 40vh;
+  width: 100%;
+  ${Screen.tablet`
+    margin-top: 10vh;
+    width: 100%;
+  `};
+  ${Screen.largePhone`
+  width: 99%;
+`};
 `;
 const VerticalLine = styled(Stick)`
   postition: relative;
@@ -23,7 +35,6 @@ const VerticalLine = styled(Stick)`
 const ProfileContainer = styled.div`
   position: relative;
   margin: 0px 0px 0px 300px;
-  border: 1px solid blue;
   width: 13%;
   height: 50%;
   &:hover #card0{
@@ -38,16 +49,44 @@ const ProfileContainer = styled.div`
     transform: translate(20px, 40px);
     transition: ${Basics.transition};
   }
+  ${Screen.tablet`
+    margin: -60px 0px 0px 150px;
+    #card0{ transform: translate(60px, 120px); }
+    #card1{ transform: translate(40px, 80px); }
+    #card2{ transform: translate(20px, 40px); }
+  `};
+  ${Screen.largePhone`
+  margin: -80px 0px 0px 15px;
+  `};
+  ${Screen.smallPhone`
+  margin: -80px 0px 0px 0px;
+  `};
 `;
 const BodyContainer = styled.div`
-  border: 1px solid white;
   margin-left: 50px;
+  text-align: center;
   width: 40%;
+  ${Screen.largeScreen`
+    margin: -80px 0px 0px 50px;
+    width: 80%;
+  `};
+  ${Screen.largePhone`
+    margin: 50px 0px 0px 0px;
+    text-align: center;
+    width: 88%;
+    padding: 0px 20px;
+  `};
 `;
 const BodyText = styled(Paragraph)`
-  border: 1px solid white;
-  color: white;
+  text-align: left;
   width: 100%;
+  ${Screen.largeScreen`
+    padding-top: 20px;
+    font-size: 20px;
+  `};
+  ${Screen.largePhone`
+  font-size: 16px;
+`};
 `;
 const Dec = styled(Card)`
   position: relative;
@@ -70,80 +109,123 @@ const Profile = styled(Card)`
     transition: ${Basics.transition};
   }
 `;
-const Svg = styled.div`
-position: relative;
-border: 1px solid white;
-padding-right: 50px;
-&:hover,
-&:focus {
-  transform: translateY(-10px);
-  transition: ${Basics.transition};
-}
-svg {
-  fill: #ffffff;
-  width: 100px;
-  height: 100px;
-}
+const EduItem = styled.div`
+  position: relative;
+  padding-right: 50px;
+  &:hover,
+  &:focus {
+    transform: translateY(-10px);
+    transition: ${Basics.transition};
+  }
 `;
 
-const Stack = styled.div`
-position: relative;
-border: 1px solid white;
-width: 10%;
-height: 10%;
-&:hover,
-&:focus {
-  transform: translateY(-10px);
-  transition: ${Basics.transition};
-}
-svg {
-  fill: #ffffff;
-  width: 50px;
-  height: 50px;
-}
+const StackItem = styled.div`
+  position: relative;
+  &:hover,
+  &:focus {
+    transform: translateY(-10px);
+    transition: ${Basics.transition};
+  }
 `;
 const StackLink = styled.a`
-position: relative;
-padding: 15px;
-&:hover,
-&:focus {
-  svg {
-    fill: ${Basics.colors.blueBird};
+  position: relative;
+  display: flex;
+  padding: 15px;
+  &:hover,
+  &:focus {
+    svg {
+      fill: white;
+    }
   }
-}
-svg {
-  fill: #ffffff;
-  width: 50px;
-  height: 50px;
-}
+  svg {
+    fill: ${Basics.colors.fadedRed};
+    width: 50px;
+    height: 50px;
+  }
+  ${Screen.tablet`
+    svg {
+      width: 50px;
+      height: 50px;
+    }
+  `};
+  ${Screen.largePhone`
+    svg {
+      width: 55px;
+      height: 60px;
+    }
+  `};
+
+  ${Screen.phone`
+    svg {
+      width: 45px;
+      height: 45px;
+    }
+  `};
+
+  ${Screen.smallPhone`
+    svg {
+      width: 60px;
+      height: 60px;
+    }
+  `};
 `;
 const StackContainer = styled.div`
-  border: 1px solid white;
   height: 20vh;
   display: flex;
   flex-wrap: wrap;
   margin: 40px 0px 0px 0px;
+  ${Screen.largePhone`
+    width: 100%;
+    height: 50vh;
+  `};
 `;
 
 const EduContainer = styled.div`
   display: flex;
-  border: 1px solid white;
   margin: 0;
+  ${Screen.phone`
+    padding: 0px;
+  `};
 `;
-const Link = styled.a`
-position: relative;
-color: inherit;
-&:hover,
-&:focus {
-  svg {
-    fill: ${Basics.colors.blueBird};
+const EduLink = styled.a`
+  position: relative;
+  &:hover,
+  &:focus {
+    svg {
+      fill: white;
+    }
   }
-}
-svg {
-  fill: #ffffff;
-  width: 120px;
-  height: 120px;
-}
+  svg {
+    fill: ${Basics.colors.fadedRed};
+    width: 120px;
+    height: 120px;
+  }
+  ${Screen.tablet`
+    svg {
+      width: 100px;
+      height: 100px;
+    }
+  `};
+  ${Screen.largePhone`
+    svg {
+      width: 90px;
+      height: 90px;
+    }
+  `};
+
+  ${Screen.phone`
+    svg {
+      width: 62px;
+      height: 74px;
+    }
+  `};
+  ${Screen.smallPhone`
+  svg {
+    width: 50px;
+    height: 74px;
+  }
+`};
+
 `;
 
 const image = {
@@ -163,18 +245,18 @@ const About = () => {
       />,
   );
   const education = links.eduLinks.map(
-    (item, i) => <Svg key={i}>
-      <Link
+    (item, i) => <EduItem key={i}>
+      <EduLink
         href={item.url}
         target="_blank"
         rel="nofollow noopener noreferrer"
         aria-label={item.name}>
         <EduFill name={item.name} url={item.url} />
-      </Link>
-    </Svg>,
+      </EduLink>
+    </EduItem>,
   );
   const stacks = links.stackLinks.map(
-    (item, i) => <Stack key={i}>
+    (item, i) => <StackItem key={i}>
       <StackLink key={i}
     href={item.url}
     target="_blank"
@@ -182,7 +264,7 @@ const About = () => {
     aria-label={item.name}>
     <StackFill name={item.name} url={item.url} />
   </StackLink>
-      </Stack>,
+      </StackItem>,
   );
 
   return (
