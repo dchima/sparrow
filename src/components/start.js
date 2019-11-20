@@ -100,15 +100,12 @@ const BodyText = styled(Paragraph)`
   animation: 3s ${animateFadeUp};
   width: 37%;
   position: relative;
-  
   bottom: 50px;
   padding-top: 40px;
   ${Screen.largeScreen`
-    font-size: 50px;
     width: 100%;
   `};
   ${Screen.tablet`
-    font-size: 30px;
     width: 80%;
   `};
   ${Screen.largePhone`

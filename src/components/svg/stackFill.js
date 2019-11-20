@@ -47,7 +47,6 @@ const StackFill = ({ name }) => {
       return <Git />;
     default:
       return <Sparrow />;
-    
   }
 };
 

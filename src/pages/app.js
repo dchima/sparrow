@@ -6,6 +6,7 @@ import {
   Nav,
   Socials,
   About,
+  Project,
 } from 'components';
 
 const App = () => (
@@ -13,6 +14,7 @@ const App = () => (
       <GlobalStyle />
       <Start />
       <About />
+      <Project />
       <Nav />
       <Socials />
     </div>
