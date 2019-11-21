@@ -12,6 +12,8 @@ import SvgNottingham from './nottingham';
 import SvgLeeds from './leeds';
 import EduFill from './eduFill';
 import StackFill from './stackFill';
+import SvgDocument from './document';
+import SvgExternalLink from './externalLink';
 
 export {
   SvgReact,
@@ -28,4 +30,6 @@ export {
   SvgLeeds,
   EduFill,
   StackFill,
+  SvgDocument,
+  SvgExternalLink,
 };

@@ -57,75 +57,82 @@ const links = {
     {
       name: 'ReactJs',
       url: 'https://reactjs.org/',
-      color: '',
     }, {
       name: 'NodeJs',
       url: 'https://nodejs.org/',
-      color: '',
     }, {
       name: 'Python',
       url: 'https://www.python.org/',
-      color: '',
     }, {
       name: 'Django',
       url: 'https://www.djangoproject.com/',
-      color: '',
     }, {
       name: 'Html',
       url: 'https://html.com/',
-      color: '',
     }, {
       name: 'Css',
       url: 'https://www.w3schools.com/css/',
-      color: '',
     }, {
       name: 'Postgres',
       url: 'https://www.postgresql.org/',
-      color: '',
     }, {
       name: 'Xd',
       url: 'https://letsxd.com/',
-      color: '',
     }, {
       name: 'Vscode',
       url: 'https://code.visualstudio.com/',
-      color: '',
     }, {
       name: 'Docker',
       url: 'https://www.docker.com/',
-      color: '',
     }, {
       name: 'Travis',
       url: 'https://travis-ci.com/',
-      color: '',
     }, {
       name: 'Hound',
       url: 'https://houndci.com/',
-      color: '',
     }, {
       name: 'Coveralls',
       url: 'http://coveralls.io/',
-      color: '',
     }, {
       name: 'Heroku',
       url: 'https://www.heroku.com/',
-      color: '',
     }, {
       name: 'Postman',
       url: 'https://www.getpostman.com/',
-      color: '',
     }, {
       name: 'Swagger',
       url: 'https://swagger.io/',
-      color: '',
     }, {
       name: 'Trello',
       url: 'https://trello.com/',
-      color: '',
     }, {
       name: 'Git',
       url: 'https://git-scm.com/',
-      color: '',
+    },
+    {
+      name: 'C',
+      url: 'https://en.wikipedia.org/wiki/C_(programming_language)',
+    }, {
+      name: 'ROS',
+      url: 'http://wiki.ros.org/',
+    }, {
+      name: 'Webpack',
+      url: 'https://webpack.js.org/',
+    }, {
+      name: 'ObjectiveC',
+      url: 'https://en.wikipedia.org/wiki/Objective-C',
+    }, {
+      name: 'ARM',
+      url: 'https://www.arm.com/',
+    }, {
+      name: 'XCode',
+      url: 'https://developer.apple.com/xcode/',
+    }, {
+      name: 'CPlus',
+      url: 'https://en.wikipedia.org/wiki/C%2B%2B',
+    }, {
+      name: 'RaspberryPi',
+      url: 'https://www.raspberrypi.org/',
     },
   ],
 };

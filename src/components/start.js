@@ -13,6 +13,7 @@ const StartContainer = styled.div`
   position: relative;
   height: 50vh;
   margin: 200px;
+  //border: 1px solid red;
   ${Screen.tablet`
     margin: 200px 50px;
     width: 90%;
@@ -100,15 +101,12 @@ const BodyText = styled(Paragraph)`
   animation: 3s ${animateFadeUp};
   width: 37%;
   position: relative;
-  
   bottom: 50px;
   padding-top: 40px;
   ${Screen.largeScreen`
-    font-size: 50px;
     width: 100%;
   `};
   ${Screen.tablet`
-    font-size: 30px;
     width: 80%;
   `};
   ${Screen.largePhone`
