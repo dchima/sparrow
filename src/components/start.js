@@ -13,6 +13,7 @@ const StartContainer = styled.div`
   position: relative;
   height: 50vh;
   margin: 200px;
+  //border: 1px solid red;
   ${Screen.tablet`
     margin: 200px 50px;
     width: 90%;

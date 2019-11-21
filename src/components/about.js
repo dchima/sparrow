@@ -14,8 +14,8 @@ import { EduFill, StackFill } from 'components/svg';
 const AboutContainer = styled.div`
   position: relative;
   display: flex;
+  //border: 1px solid blue;
   flex-wrap: wrap;
-  height: 60vh;
   margin-top: 40vh;
   width: 100%;
   ${Screen.tablet`
@@ -81,7 +81,6 @@ const BodyText = styled(Paragraph)`
   text-align: left;
   width: 100%;
   ${Screen.largeScreen`
-    padding-top: 20px;
     font-size: 20px;
   `};
   ${Screen.largePhone`

@@ -1,5 +1,5 @@
 import React from 'react';
-// import styled from 'styled-components';
+import styled from 'styled-components';
 import { GlobalStyle } from 'decor';
 import {
   Start,
@@ -9,15 +9,22 @@ import {
   Project,
 } from 'components';
 
+const AppContainer = styled.div`
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  //border: 1px solid white;
+`;
+
 const App = () => (
-    <div>
+    <AppContainer>
       <GlobalStyle />
       <Start />
       <About />
       <Project />
       <Nav />
       <Socials />
-    </div>
+    </AppContainer>
 );
 
 export default App;
