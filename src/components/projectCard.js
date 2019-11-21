@@ -1,7 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Basics, Paragraph } from 'decor';
+import { SvgGithub, SvgDocument } from 'components/svg';
 import { StackFill } from './svg';
+
 
 const Card = styled.div`
   border: 1px solid white;
@@ -21,7 +23,7 @@ const ContentContainer = styled.div`
 `;
 
 const Title = styled.h1`
-  color: ${Basics.colors.bloodRed};
+  color: white;
   font-weight: 900;
   font-size: 23px;
   //border: 1px solid white;
@@ -32,15 +34,16 @@ const BodyText = styled(Paragraph)`
   //border: 1px solid white;
   font-weight: 900;
   font-size: 14px;
-  height: 15vh;
+  height: 10vh;
   color: ${Basics.colors.fadedRed};
 `;
 
 const Redirects = styled.div`
   //border: 1px solid green;
 `;
-const StackLink = styled.a`
+const Link = styled.a`
   position: relative;
+  float: right;
   display: flex;
   padding: 5px;
   &:hover,
@@ -51,12 +54,12 @@ const StackLink = styled.a`
   }
   svg {
     fill: ${Basics.colors.deepRed};
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
   }
 `;
 
-const StackItem = styled.div`
+const Item = styled.div`
   position: relative;
   &:hover,
   &:focus {
@@ -73,20 +76,41 @@ const StackContainer = styled.div`
 
 const ProjectCard = ({ content }) => {
   const stacks = content.tools.map(
-    (item, i) => <StackItem key={i}>
-      <StackLink key={i}
+    (item, i) => <Item key={i}>
+      <Link key={i}
     aria-label={item}>
     <StackFill name={item} />
-  </StackLink>
-      </StackItem>,
+  </Link>
+      </Item>,
   );
   return (
     <Card>
       <ContentContainer>
+      <Redirects>
+        {content.github
+          && <Item>
+            <Link
+              arial-label='repo'
+              href={content.github}
+              target="_blank">
+              <SvgGithub />
+            </Link>
+          </Item>
+        }
+        {content.document
+          && <Item>
+            <Link
+              arial-label='paper'
+              href={content.document}
+              target="_blank">
+              <SvgDocument />
+            </Link>
+          </Item>
+        }
+      </Redirects>
         <Title>
             {content.title}
         </Title>
-        <Redirects />
         <BodyText>
           {content.body}
         </BodyText>

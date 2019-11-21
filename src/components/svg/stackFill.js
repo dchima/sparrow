@@ -3,7 +3,8 @@ import PropTypes from 'prop-types';
 import {
   ReactJs, NodeJs, Python, Django, Html, Css, Postgres,
   Xd, Vscode, Docker, Travis, Hound, Coveralls, Heroku,
-  Postman, Swagger, Trello, Git,
+  Postman, Swagger, Trello, Git, CProgram, Ros, Webpack,
+  ObjectiveC, ARM, XCode, CPlus, RaspberryPi,
 } from './stacks';
 import Sparrow from './sparrow';
 
@@ -45,6 +46,22 @@ const StackFill = ({ name }) => {
       return <Trello />;
     case 'Git':
       return <Git />;
+    case 'C':
+      return <CProgram />;
+    case 'ROS':
+      return <Ros />;
+    case 'Webpack':
+      return <Webpack />;
+    case 'ObjectiveC':
+      return <ObjectiveC />;
+    case 'ARM':
+      return <ARM />;
+    case 'XCode':
+      return <XCode />;
+    case 'CPlus':
+      return <CPlus />;
+    case 'RaspberryPi':
+      return <RaspberryPi />;
     default:
       return <Sparrow />;
   }
