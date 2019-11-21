@@ -6,14 +6,19 @@ import { StackFill } from './svg';
 
 
 const Card = styled.div`
-  border: 1px solid white;
+  border: 2px solid ${Basics.colors.fadedRed};
   position: relative;
   display: flex;
   flex-direction: column;
   margin: 10px;
   height: 330px;
   width: 280px;
-  background-color: ${Basics.colors.chalkRed};
+  background-color: ${Basics.colors.black};
+  &:hover,
+  &:focus {
+    transform: translateY(-10px);
+    transition: ${Basics.transition};
+  }
   ${Screen.largeScreen`
    margin: 10px;
   `};
@@ -38,7 +43,7 @@ const ContentContainer = styled.div`
 `;
 
 const Title = styled.h1`
-  color: white;
+  color: ${Basics.colors.chalkRed};
   font-weight: 900;
   font-size: 23px;
   //border: 1px solid white;
@@ -70,11 +75,11 @@ const Link = styled.a`
   &:hover,
   &:focus {
     svg {
-      fill: white;
+      fill: ${Basics.colors.white};
     }
   }
   svg {
-    fill: ${Basics.colors.deepRed};
+    fill: ${Basics.colors.fadedRed};
     width: 25px;
     height: 25px;
   }

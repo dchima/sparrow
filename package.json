@@ -8,8 +8,9 @@
     "url": "https://github.com/dchima/sparrow"
   },
   "private": true,
-  "homepage": "https://dchima.github.io/sparrow",
+  "homepage": "https://github.com/dchima/sparrow#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "prop-types": "^15.7.2",
     "react": "^16.10.2",
     "react-animations": "^1.0.0",
@@ -24,8 +25,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "deploy": "npm run build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -47,7 +47,6 @@
     "eslint": "^6.5.1",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.16.0",
-    "gh-pages": "^2.1.1"
+    "eslint-plugin-react": "^7.16.0"
   }
 }

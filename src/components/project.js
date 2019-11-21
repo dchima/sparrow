@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Screen } from 'decor';
+import { Screen, Basics } from 'decor';
 import { content } from 'data';
 import ProjectCard from './projectCard';
 
@@ -49,7 +49,7 @@ const Batch2 = styled.div`
 `;
 
 const Title = styled.h1`
-  color: white;
+  color: ${Basics.colors.chalkRed};
   font-weight: 900;
   line-height: 45px;
   font-size: 50px;

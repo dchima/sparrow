@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import Basics from './basics';
 
 const GlobalStyle = createGlobalStyle`
 body {
@@ -15,6 +16,21 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+a {
+  color: ${Basics.colors.fadedRed};
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  position: relative;
+  transition: ${Basics.transition};
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    color: ${Basics.colors.white};
+    outline: 0;
+  }
 }
 `;
 

@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/sparrow/static/js/main.82a2e787.chunk.js",
-    "main.js.map": "/sparrow/static/js/main.82a2e787.chunk.js.map",
-    "runtime-main.js": "/sparrow/static/js/runtime-main.220127be.js",
-    "runtime-main.js.map": "/sparrow/static/js/runtime-main.220127be.js.map",
-    "static/js/2.265f64d0.chunk.js": "/sparrow/static/js/2.265f64d0.chunk.js",
-    "static/js/2.265f64d0.chunk.js.map": "/sparrow/static/js/2.265f64d0.chunk.js.map",
-    "index.html": "/sparrow/index.html",
-    "precache-manifest.e9d77dc31fe4ab03a2c00099526cc234.js": "/sparrow/precache-manifest.e9d77dc31fe4ab03a2c00099526cc234.js",
-    "service-worker.js": "/sparrow/service-worker.js",
-    "static/media/profile.jpg": "/sparrow/static/media/profile.0ac0935f.jpg"
+    "main.js": "/dchima/sparrow/static/js/main.445f3c5b.chunk.js",
+    "main.js.map": "/dchima/sparrow/static/js/main.445f3c5b.chunk.js.map",
+    "runtime-main.js": "/dchima/sparrow/static/js/runtime-main.56220354.js",
+    "runtime-main.js.map": "/dchima/sparrow/static/js/runtime-main.56220354.js.map",
+    "static/js/2.ac58119f.chunk.js": "/dchima/sparrow/static/js/2.ac58119f.chunk.js",
+    "static/js/2.ac58119f.chunk.js.map": "/dchima/sparrow/static/js/2.ac58119f.chunk.js.map",
+    "index.html": "/dchima/sparrow/index.html",
+    "precache-manifest.14d767cbac4cf228731f6528ff9be7f0.js": "/dchima/sparrow/precache-manifest.14d767cbac4cf228731f6528ff9be7f0.js",
+    "service-worker.js": "/dchima/sparrow/service-worker.js",
+    "static/media/profile.jpg": "/dchima/sparrow/static/media/profile.0ac0935f.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.220127be.js",
-    "static/js/2.265f64d0.chunk.js",
-    "static/js/main.82a2e787.chunk.js"
+    "static/js/runtime-main.56220354.js",
+    "static/js/2.ac58119f.chunk.js",
+    "static/js/main.445f3c5b.chunk.js"
   ]
 }
