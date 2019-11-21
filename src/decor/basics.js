@@ -1,6 +1,7 @@
 const basics = {
   colors: {
     black: '#000000',
+    blackRed: '#420f0f',
     white: '#ffffff',
     bloodRed: '#800020',
     fadedRed: '#AA6969',

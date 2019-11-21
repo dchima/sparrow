@@ -35,7 +35,7 @@ position: relative;
   }
 }
 svg {
-  fill: #ffffff;
+  fill: ${Basics.colors.chalkRed};
   width: 16px;
   height: 16px;
 }
