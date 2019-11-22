@@ -54,12 +54,9 @@ const BodyText = styled(Paragraph)`
   //border: 1px solid white;
   font-weight: 900;
   font-size: 14px;
-  height: 15vh;
   ${Screen.largeScreen`
-  height: 10vh;
 `};
 ${Screen.smallPhone`
-  height: 15vh;
 `};
   color: ${Basics.colors.fadedRed};
 `;
@@ -70,7 +67,6 @@ const Redirects = styled.div`
 const Link = styled.a`
   position: relative;
   float: left;
-  display: flex;
   padding: 5px;
   &:hover,
   &:focus {
@@ -95,7 +91,10 @@ const Item = styled.div`
 `;
 
 const StackContainer = styled.div`
-  //border: 1px solid yellow;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  bottom: 5px;
 `;
 
 const ProjectCard = ({ content }) => {

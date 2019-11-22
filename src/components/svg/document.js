@@ -2,6 +2,7 @@ import React from 'react';
 
 const Document = () => (
 <svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 388.000000 394.000000">
+  <title>Paper</title>
   <g transform="translate(0.000000,394.000000) scale(0.100000,-0.100000)">
     <path d="M256 3704 c-14 -14 -16 -184 -16 -1719 0 -1535 2 -1705 16 -1719 14
     -14 149 -16 1343 -16 1252 0 1329 1 1343 18 9 10 18 48 22 97 32 376 158 1049

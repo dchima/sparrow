@@ -14,6 +14,7 @@ import EduFill from './eduFill';
 import StackFill from './stackFill';
 import SvgDocument from './document';
 import SvgExternalLink from './externalLink';
+import Birds from './birds';
 
 export {
   SvgReact,
@@ -32,4 +33,5 @@ export {
   StackFill,
   SvgDocument,
   SvgExternalLink,
+  Birds,
 };
