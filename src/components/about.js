@@ -16,10 +16,10 @@ const AboutContainer = styled.div`
   display: flex;
   //border: 1px solid blue;
   flex-wrap: wrap;
-  margin-top: 40vh;
+  padding-top: 40vh;
   width: 100%;
   ${Screen.tablet`
-    margin-top: 10vh;
+    padding-top: 10vh;
     width: 100%;
   `};
   ${Screen.largePhone`
@@ -283,7 +283,7 @@ const About = () => {
           {education}
         </EduContainer>
         <BodyText>
-          {content.about.body2}
+          {content.about.body3}
         </BodyText>
         <StackContainer>
           {stacks}

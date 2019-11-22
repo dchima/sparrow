@@ -12,15 +12,13 @@ const animateFadeDown = keyframes`${fadeInDownBig}`;
 const StartContainer = styled.div`
   position: relative;
   height: 50vh;
-  margin: 200px;
+  padding: 200px;
   //border: 1px solid red;
   ${Screen.tablet`
-    margin: 200px 50px;
-    width: 90%;
+    padding: 200px 20px;
   `};
   ${Screen.miniTablet`
-    margin: 200px 30px;
-    width: 90%;
+    padding: 200px 20px 200px 10px;
   `};
 `;
 const PreTitle = styled.div`

@@ -8,7 +8,6 @@
     "url": "https://github.com/dchima/sparrow"
   },
   "private": true,
-  "homepage": "https://github.com/dchima/sparrow#readme",
   "dependencies": {
     "express": "^4.17.1",
     "prop-types": "^15.7.2",
