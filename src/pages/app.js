@@ -7,13 +7,14 @@ import {
   Socials,
   About,
   Project,
+  Contact,
+  Footer,
 } from 'components';
 
 const AppContainer = styled.div`
   position: relative;
   display: flex;
   flex-direction: column;
-  //border: 1px solid white;
 `;
 
 const App = () => (
@@ -22,6 +23,8 @@ const App = () => (
       <Start />
       <About />
       <Project />
+      <Contact />
+      <Footer />
       <Nav />
       <Socials />
     </AppContainer>
