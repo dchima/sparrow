@@ -4,7 +4,7 @@ import {
   ReactJs, NodeJs, Python, Django, Html, Css, Postgres,
   Xd, Vscode, Docker, Travis, Hound, Coveralls, Heroku,
   Postman, Swagger, Trello, Git, CProgram, Ros, Webpack,
-  ObjectiveC, ARM, XCode, CPlus, RaspberryPi,
+  ObjectiveC, ARM, XCode, CPlus, RaspberryPi, FPGA, Xilinx,
 } from './stacks';
 import Sparrow from './sparrow';
 
@@ -62,6 +62,10 @@ const StackFill = ({ name }) => {
       return <CPlus />;
     case 'RaspberryPi':
       return <RaspberryPi />;
+    case 'FPGA':
+      return <FPGA />;
+    case 'Xilinx':
+      return <Xilinx />;
     default:
       return <Sparrow />;
   }

@@ -59,7 +59,7 @@ const ProfileContainer = styled.div`
   margin: -80px 0px 0px 15px;
   `};
   ${Screen.smallPhone`
-  margin: -80px 0px 0px 0px;
+  margin: -80px 0px 0px -15px;
   `};
 `;
 const BodyContainer = styled.div`
