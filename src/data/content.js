@@ -9,7 +9,7 @@ const content = {
   desc: 'I’m a software engineer based in Lagos, Nigeria. I spend most of my time building great applications and tinkering with clocks',
   desc2: 'Let’s build together.',
   about: {
-    body1: ['Hey there! I’m Chima. I’m a software engineer based in Lagos, Nigeria. I spend most of my time building and designing great applications for the web. People with great ideas are all around us, searching for the right tools to help move the world forward. I’m the guy that spends his time building these tools.', <div><br /> <br/></div>, 'Here are a list of my alma maters:'],
+    body1: ['Hey there! I’m Chima. I’m a software engineer based in Lagos, Nigeria. I spend most of my time building and designing great applications for the web. People with great ideas are all around us, searching for the right tools to help move the world forward. I’m the guy that spends his time building those tools.', <div><br /> <br/></div>, 'Here are a list of my alma maters:'],
     body2: ['After graduating from the University of Leeds, I started work with ', <a href='https://ziclisynergy.com' target='_blank'>Zicli Synergy</a>, ' where I head and manage their technology department. I am currently working with ', <a href='https://youtube.com'>Fourshores Inc</a>, ' where I help develop useful tools and products ready for the Nigerian Market.', <div><br /> <br/></div>, 'Here are a few technologies I work with:'],
     body3: ['After graduating from the University of Leeds, I started work with ', <a href='https://ziclisynergy.com' target='_blank'>Zicli Synergy</a>, ' where I head and manage their technology department. I am currently developing useful tools and products ready for the Nigerian Market.', <div><br /> <br/></div>, 'Here are a few technologies I work with:'],
 
@@ -19,10 +19,10 @@ const content = {
   project1: [
     {
       title: 'Site Verson 1',
-      body: 'First iteration of my personal website (should be the exact page you’re on). Build with react and hosted on heroku app.',
+      body: 'First iteration of my personal website (should be the exact page you’re on). Built with react and hosted on heroku app.',
       github: 'https://github.com/dchima/sparrow',
       externalLink: 'https://danielchima.herokuapp.com/',
-      tools: ['NodeJs', 'ReactJs', 'Heroku', 'Html'],
+      tools: ['NodeJs', 'ReactJs', 'Heroku', 'Html', 'Git'],
     },
     {
       title: 'Casper',
@@ -38,7 +38,7 @@ const content = {
     },
     {
       title: 'ResCap',
-      body: 'An iOS electronics component toolbox app for calculating resistors and capacitors. Build using Objective C',
+      body: 'An iOS electronics component toolbox app for calculating resistors and capacitors. Built using Objective C',
       github: 'https://github.com/dchima/ios-application',
       document: 'https://drive.google.com/file/d/1PNeJ4FtRw4_6eYLa5aQ9HaXqgiFtsHEd/view?usp=sharing',
       tools: ['ObjectiveC', 'XCode'],
@@ -51,7 +51,7 @@ const content = {
     },
     {
       title: 'Conference Client',
-      body: 'A small react/node project for adding conference talks to a list. app hosted on heroku',
+      body: 'A small react/node project for adding conference talks to a list. App hosted on heroku',
       github: 'https://github.com/dchima/conference-api',
       externalLink: 'https://conference-client.herokuapp.com/',
       tools: ['ReactJs', 'NodeJs', 'Postgres', 'Heroku', 'Hound', 'Travis', 'Coveralls'],
