@@ -41,6 +41,10 @@ const Link = styled.a`
   height: 20px;
   width: 200px;
   margin-top: 50px;
+  &:hover,
+  &:focus {
+    border: 2px solid ${Basics.colors.white};
+  }
 `;
 const Contact = () => (
   <ContactContainer id='contact'>

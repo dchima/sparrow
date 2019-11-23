@@ -23,7 +23,7 @@ const StartContainer = styled.div`
 `;
 const PreTitle = styled.div`
   animation: 2s ${animateFadeDown};
-  background-color: white;
+  background-color: ${Basics.colors.chalkRed};
   position: relative;
   height: 4.5vh;
   width: 200px;
@@ -50,6 +50,7 @@ const PreTitle = styled.div`
 `;
 const Name = styled(Title)`
   animation: 3s ${animateFadeUp};
+  color: ${Basics.colors.chalkRed};
   Position: relative;
   margin: 40px 0px;
   margin-bottom: 0;

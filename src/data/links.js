@@ -133,6 +133,12 @@ const links = {
     }, {
       name: 'RaspberryPi',
       url: 'https://www.raspberrypi.org/',
+    }, {
+      name: 'FPGA',
+      url: 'https://en.wikipedia.org/wiki/Field-programmable_gate_array',
+    }, {
+      name: 'Xilinx',
+      url: 'https://www.xilinx.com/',
     },
   ],
 };

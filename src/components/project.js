@@ -10,7 +10,7 @@ const ProjectContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   //border: 1px solid green;
-  margin-top: 30vh;
+  padding-top: 30vh;
   ${Screen.tablet`
     width: 100%;
   `};
