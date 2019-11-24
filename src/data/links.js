@@ -108,8 +108,7 @@ const links = {
     }, {
       name: 'Git',
       url: 'https://git-scm.com/',
-    },
-    {
+    }, {
       name: 'C',
       url: 'https://en.wikipedia.org/wiki/C_(programming_language)',
     }, {

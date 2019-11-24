@@ -48,7 +48,7 @@ const Socials = () => {
         target="_blank"
         rel="nofollow noopener noreferrer"
         aria-label={item.name}>
-        <SocialFill name={item.name} url={item.url} />
+        <SocialFill name={item.name} />
       </Link>
     </Svg>,
   );

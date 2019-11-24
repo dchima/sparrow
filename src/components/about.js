@@ -169,13 +169,11 @@ const StackLink = styled.a`
   `};
 `;
 const StackContainer = styled.div`
-  height: 20vh;
   display: flex;
   flex-wrap: wrap;
   margin: 40px 0px 0px 0px;
   ${Screen.largePhone`
     width: 100%;
-    height: 50vh;
   `};
 `;
 
@@ -250,7 +248,7 @@ const About = () => {
         target="_blank"
         rel="nofollow noopener noreferrer"
         aria-label={item.name}>
-        <EduFill name={item.name} url={item.url} />
+        <EduFill name={item.name}/>
       </EduLink>
     </EduItem>,
   );
@@ -261,7 +259,7 @@ const About = () => {
     target="_blank"
     rel="nofollow noopener noreferrer"
     aria-label={item.name}>
-    <StackFill name={item.name} url={item.url} />
+    <StackFill name={item.name} />
   </StackLink>
       </StackItem>,
   );
