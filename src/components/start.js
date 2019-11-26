@@ -32,10 +32,15 @@ const PreTitle = styled.div`
   align-items: center;
   font-weight: 900;
   font-size: ${Basics.fontSize.small};
-  // transform: rotate(-20deg);
+    ${Screen.largeScreen`
+    width: 160px;
+  `};
   ${Screen.miniTablet`
     font-size: ${Basics.fontSize.xsmall};
     width: 160px;
+  `};
+  ${Screen.largePhone`
+    width: 190px;
   `};
   ${Screen.phone`
     font-size: ${Basics.fontSize.xsmall};
@@ -43,9 +48,6 @@ const PreTitle = styled.div`
   ${Screen.smallPhone`
     font-size: ${Basics.fontSize.xxsmall};
     width: 140px;
-  `};
-  ${Screen.largeScreen`
-    width: 160px;
   `};
 `;
 const Name = styled(Title)`
