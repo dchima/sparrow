@@ -76,7 +76,7 @@ const content = {
       body: 'An embedded system to perform the function of detecting, logging and displaying of current environment temperature',
       github: 'https://github.com/dchima/temp-logger',
       document: 'https://drive.google.com/file/d/11b-tco-xchsS3UdsmAyWqAqKikqD8IXL/view?usp=sharing',
-      tools: ['CPlus', 'ARM'],
+      tools: ['C', 'CPlus', 'ARM'],
     },
     {
       title: 'Alarm Clock',
