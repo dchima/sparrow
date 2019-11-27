@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import anchor from 'react-anchor-link-smooth-scroll';
 import { Basics, Screen } from 'decor';
 import { SvgSparrow } from 'components/svg';
 import { links } from 'data';
@@ -66,12 +67,13 @@ const NavList = styled.div`
     transition: ${Basics.transition};
   }
 `;
-const Link = styled.a`
+const Link = styled(anchor)`
   font-size: ${Basics.fontSize.xsmall}
   text-decoration: none;
   color: black;
   padding: 5px 30px;
 `;
+const HomeLink = styled(anchor)``;
 
 export default class Nav extends React.Component {
   constructor() {
@@ -109,9 +111,9 @@ export default class Nav extends React.Component {
       <Transition>
         <NavContainer className={this.state.show ? 'active' : 'hidden'}>
           <Svg>
-            <a href={'#start'}>
+            <HomeLink href={'#start'}>
               <SvgSparrow />
-            </a>
+            </HomeLink>
           </Svg>
           <ListContainer>
             {navs}
