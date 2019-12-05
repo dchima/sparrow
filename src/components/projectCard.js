@@ -6,13 +6,15 @@ import { StackFill } from './svg';
 
 
 const Card = styled.div`
-  border: 2px solid ${Basics.colors.fadedRed};
+  border: 1px solid ${Basics.colors.fadedRed};
+  border-radius: 10px;
   position: relative;
   display: flex;
   flex-direction: column;
   margin: 10px;
-  height: 330px;
+  height: 350px;
   width: 280px;
+  transition: ${Basics.transition};
   background-color: ${Basics.colors.black};
   &:hover,
   &:focus {
