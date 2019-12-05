@@ -38,7 +38,7 @@ const content = {
     },
     {
       title: 'ResCap',
-      body: 'An iOS electronics component toolbox app for calculating resistors and capacitors. Built using Objective C',
+      body: 'An iOS electronics component toolbox app for calculating resistors and capacitors. Built using Objective-C',
       github: 'https://github.com/dchima/ios-application',
       document: 'https://drive.google.com/file/d/1PNeJ4FtRw4_6eYLa5aQ9HaXqgiFtsHEd/view?usp=sharing',
       tools: ['ObjectiveC', 'XCode'],
