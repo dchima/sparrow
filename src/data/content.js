@@ -50,9 +50,9 @@ const content = {
       tools: ['NodeJs', 'Postgres', 'Travis', 'Swagger', 'Coveralls', 'Postman'],
     },
     {
-      title: 'Conference Client',
-      body: 'A small react/node project for adding conference talks to a list. App hosted on heroku',
-      github: 'https://github.com/dchima/conference-api',
+      title: 'Conference Talks',
+      body: 'A small react/node project for adding conference talks and attendees to a database. App hosted on heroku',
+      github: 'https://github.com/dchima/conference-backend',
       externalLink: 'https://conference-client.herokuapp.com/',
       tools: ['ReactJs', 'NodeJs', 'Postgres', 'Heroku', 'Hound', 'Travis', 'Coveralls'],
     },
