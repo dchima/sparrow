@@ -6,7 +6,7 @@ import { StackFill } from './svg';
 
 
 const Card = styled.div`
-  border: 1px solid ${Basics.colors.fadedRed};
+  border: 2px solid ${Basics.colors.fadedRed};
   border-radius: 10px;
   position: relative;
   display: flex;
@@ -111,38 +111,38 @@ const ProjectCard = ({ content }) => {
   return (
     <Card>
       <ContentContainer>
-      <Redirects>
-        {content.github
-          && <Item>
-            <Link
-              arial-label='repo'
-              href={content.github}
-              target="_blank">
-              <SvgGithub />
-            </Link>
-          </Item>
-        }
-        {content.document
-          && <Item>
-            <Link
-              arial-label='paper'
-              href={content.document}
-              target="_blank">
-              <SvgDocument />
-            </Link>
-          </Item>
-        }
-        {content.externalLink
-          && <Item>
-            <Link
-              arial-label='link'
-              href={content.externalLink}
-              target="_blank">
-              <SvgExternalLink />
-            </Link>
-          </Item>
-        }
-      </Redirects>
+        <Redirects>
+          {content.github
+            && <Item>
+              <Link
+                arial-label='repo'
+                href={content.github}
+                target="_blank">
+                <SvgGithub />
+              </Link>
+            </Item>
+          }
+          {content.document
+            && <Item>
+              <Link
+                arial-label='paper'
+                href={content.document}
+                target="_blank">
+                <SvgDocument />
+              </Link>
+            </Item>
+          }
+          {content.externalLink
+            && <Item>
+              <Link
+                arial-label='link'
+                href={content.externalLink}
+                target="_blank">
+                <SvgExternalLink />
+              </Link>
+            </Item>
+          }
+        </Redirects>
         <Title>
             {content.title}
         </Title>
