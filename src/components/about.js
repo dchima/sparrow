@@ -7,7 +7,7 @@ import {
   Paragraph,
   Screen,
 } from 'decor';
-import profile from 'data/images/profile.jpg';
+import profile from 'data/images/profile.jpeg';
 import { content, links } from 'data';
 import { EduFill, StackFill } from 'components/svg';
 
