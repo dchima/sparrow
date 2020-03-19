@@ -64,7 +64,7 @@ const CardContainer = styled.div`
   //border: 1px solid white;
   display: flex;
   flex-wrap: wrap;
-  width: 62%;
+  width: 70%;
   ${Screen.tablet`
   width: 100%;
   `};
